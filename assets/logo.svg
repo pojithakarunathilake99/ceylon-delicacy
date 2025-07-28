@@ -1,0 +1,70 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#F4F1EE" stroke="#FF914D" stroke-width="4"/>
+    
+    <!-- Main Logo Elements -->
+    <g transform="translate(100, 100)">
+        <!-- Coconut Palm Tree -->
+        <g transform="translate(-30, -40)">
+            <!-- Tree Trunk -->
+            <path d="M 0 20 Q 2 15 4 10 Q 6 5 8 0 Q 10 -5 12 -10 Q 14 -15 16 -20" 
+                  stroke="#8B4513" stroke-width="4" fill="none"/>
+            
+            <!-- Palm Leaves -->
+            <path d="M 16 -20 Q 30 -25 35 -15 Q 32 -10 16 -20" fill="#228B22"/>
+            <path d="M 16 -20 Q 25 -35 30 -25 Q 25 -20 16 -20" fill="#228B22"/>
+            <path d="M 16 -20 Q 5 -30 10 -35 Q 15 -30 16 -20" fill="#228B22"/>
+            <path d="M 16 -20 Q 0 -25 5 -30 Q 12 -25 16 -20" fill="#228B22"/>
+            
+            <!-- Coconuts -->
+            <circle cx="20" cy="-15" r="3" fill="#8B4513"/>
+            <circle cx="18" cy="-18" r="3" fill="#8B4513"/>
+            <circle cx="22" cy="-12" r="3" fill="#8B4513"/>
+        </g>
+        
+        <!-- Spice Elements -->
+        <g transform="translate(20, -20)">
+            <!-- Cinnamon Stick -->
+            <rect x="0" y="0" width="20" height="3" rx="1" fill="#D2691E"/>
+            <rect x="0" y="4" width="20" height="3" rx="1" fill="#D2691E"/>
+            
+            <!-- Chili Pepper -->
+            <path d="M 10 15 Q 15 12 20 15 Q 22 18 20 20 Q 15 22 10 20 Q 8 18 10 15" fill="#FF0000"/>
+            <path d="M 10 15 Q 8 12 6 10" stroke="#228B22" stroke-width="2" fill="none"/>
+        </g>
+        
+        <!-- Rice Bowl -->
+        <g transform="translate(-20, 10)">
+            <ellipse cx="0" cy="5" rx="25" ry="8" fill="#F5F5DC"/>
+            <ellipse cx="0" cy="0" rx="25" ry="8" fill="#FFFFFF"/>
+            <!-- Rice grains -->
+            <ellipse cx="-5" cy="0" rx="2" ry="1" fill="#F5F5DC"/>
+            <ellipse cx="5" cy="0" rx="2" ry="1" fill="#F5F5DC"/>
+            <ellipse cx="0" cy="2" rx="2" ry="1" fill="#F5F5DC"/>
+            <ellipse cx="-8" cy="1" rx="2" ry="1" fill="#F5F5DC"/>
+            <ellipse cx="8" cy="1" rx="2" ry="1" fill="#F5F5DC"/>
+        </g>
+        
+        <!-- Curry Leaves -->
+        <g transform="translate(30, 20)">
+            <path d="M 0 0 Q 5 -3 10 0 Q 8 3 5 5 Q 2 3 0 0" fill="#228B22"/>
+            <path d="M 5 5 Q 10 2 15 5 Q 13 8 10 10 Q 7 8 5 5" fill="#228B22"/>
+            <path d="M 10 10 Q 15 7 20 10 Q 18 13 15 15 Q 12 13 10 10" fill="#228B22"/>
+        </g>
+        
+        <!-- Decorative Border -->
+        <circle cx="0" cy="0" r="70" fill="none" stroke="#FF914D" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- Text Elements -->
+    <text x="100" y="170" text-anchor="middle" font-family="Poppins, sans-serif" font-size="16" font-weight="bold" fill="#F56EB3">Ceylon Delicacy</text>
+    <text x="100" y="185" text-anchor="middle" font-family="Poppins, sans-serif" font-size="10" fill="#4A2C2A">Authentic Sri Lankan Cuisine</text>
+    
+    <!-- Decorative Stars -->
+    <g fill="#FF914D">
+        <path d="M 50 50 L 52 54 L 56 54 L 53 57 L 54 61 L 50 59 L 46 61 L 47 57 L 44 54 L 48 54 Z"/>
+        <path d="M 150 50 L 152 54 L 156 54 L 153 57 L 154 61 L 150 59 L 146 61 L 147 57 L 144 54 L 148 54 Z"/>
+        <path d="M 50 150 L 52 154 L 56 154 L 53 157 L 54 161 L 50 159 L 46 161 L 47 157 L 44 154 L 48 154 Z"/>
+        <path d="M 150 150 L 152 154 L 156 154 L 153 157 L 154 161 L 150 159 L 146 161 L 147 157 L 144 154 L 148 154 Z"/>
+    </g>
+</svg>
